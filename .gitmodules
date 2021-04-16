@@ -1,6 +1,9 @@
-[submodule "resource/concurrency-in-go"]
-	path = resource/concurrency-in-go
+[submodule "resource/go/concurrency-in-go"]
+	path = resource/go/concurrency-in-go
 	url = https://github.com/kat-co/concurrency-in-go-src
-[submodule "resource/gopl.io"]
-	path = resource/gopl.io
+[submodule "resource/go/gopl.io"]
+	path = resource/go/gopl.io
 	url = https://github.com/adonovan/gopl.io
+[submodule "resource/go/gnp"]
+	path = resource/go/gnp
+	url = https://github.com/awoodbeck/gnp
