@@ -43,15 +43,15 @@ int age {}; // initialize to zero
 ## array
 
 ```cpp
-int test_scores [5] {100,95,99,87,88};
-int high_score_per_level [10] {3,5}; // init to 3,5 and remaining to 0
+int test_scores[5] {100,95,99,87,88};
+int high_score_per_level[10] {3,5}; // init to 3,5 and remaining to 0
 
 const double days_in_year {365};
-double hi_temperatures [days_in_year] {0}; // init all to zero
+double hi_temperatures[days_in_year] {0}; // init all to zero
 
-int another_array [] {1,2,3,4,5}; // size automatically calculated
+int another_array[] {1,2,3,4,5}; // size automatically calculated
 
-int movie_rating [3][4] // multi-dimensional arrays
+int movie_rating[3][4] // multi-dimensional arrays
 {
   {0,4,3,5},
   {2,3,3,5},
@@ -140,4 +140,17 @@ do {
   cout << i << endl;
   i++
 } while(i <= 10)
+```
+
+## Dynamic Memory Allocation
+
+```cpp
+int *int_ptr {nullptr};
+int_ptr = new int;
+delete int_ptr;
+
+int size {};
+int *int_ptr {nullptr};
+array_ptr = new int[size];
+delete[] array_ptr;
 ```
